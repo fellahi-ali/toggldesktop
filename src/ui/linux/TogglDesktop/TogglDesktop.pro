@@ -46,7 +46,10 @@ SOURCES += main.cpp\
     clickablelabel.cpp \
     colorpicker.cpp \
     countryview.cpp \
-    overlaywidget.cpp
+    overlaywidget.cpp \
+    autocompletelistmodel.cpp \
+    autocompleteitemview.cpp \
+    autocompletecombobox.cpp
 
 HEADERS  += \
     timeentryview.h \
@@ -71,7 +74,10 @@ HEADERS  += \
     clickablelabel.h \
     colorpicker.h \
     countryview.h \
-    overlaywidget.h
+    overlaywidget.h \
+    autocompletelistmodel.h \
+    autocompleteitemview.h \
+    autocompletecombobox.h
 
 FORMS    += \
     mainwindowcontroller.ui \
