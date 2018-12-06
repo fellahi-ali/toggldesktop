@@ -48,8 +48,8 @@ SOURCES += main.cpp\
     countryview.cpp \
     overlaywidget.cpp \
     autocompletelistmodel.cpp \
-    autocompleteitemview.cpp \
-    autocompletecombobox.cpp
+    autocompletecombobox.cpp \
+    autocompletelistview.cpp
 
 HEADERS  += \
     timeentryview.h \
@@ -76,8 +76,8 @@ HEADERS  += \
     countryview.h \
     overlaywidget.h \
     autocompletelistmodel.h \
-    autocompleteitemview.h \
-    autocompletecombobox.h
+    autocompletecombobox.h \
+    autocompletelistview.h
 
 FORMS    += \
     mainwindowcontroller.ui \
